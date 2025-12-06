@@ -1,7 +1,11 @@
-# cloacked-pixel-python3
-As **NOBODY** is using python2, so. A python3 version of [cloacked-pixel](https://github.com/livz/cloacked-pixel.git).
+# cloacked-pixel-oc-python3
+
+An overcharged version of [Grazee/cloacked-pixel-python3](https://github.com/Grazee/cloacked-pixel-python3) with much higher performance.
+
+> As **NOBODY** is using python2, so. A python3 version of [cloacked-pixel](https://github.com/livz/cloacked-pixel.git).
 
 # Install
+
 Follow these shell commands:
 
 ```shell
@@ -13,7 +17,9 @@ pip3 install -r requirements.txt
 ```
 
 # Usage
+
 ## Hide
+
 To hide data or file into an image:
 
 ```shell
@@ -29,6 +35,7 @@ python3 lsb.py hide -i example/origin.jpg -s example/secret.png -o stego.png -p 
 The command above will generate a new file named `stego.png`.
 
 ## Extract
+
 To extract data or file from an stego image:
 
 ```shell
